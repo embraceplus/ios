@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EmulatorView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_Clubber.png" translatesAutoresizingMaskIntoConstraints="NO" id="OaC-kT-a7k">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Embrace_3D.png" translatesAutoresizingMaskIntoConstraints="NO" id="aOO-fm-j2G">
+                    <rect key="frame" x="140" y="509" width="320" height="131"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="7bZ-pf-TZ8"/>
+                        <constraint firstAttribute="height" constant="131" id="XXn-cH-pOU"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Embrace_3D-left.png" translatesAutoresizingMaskIntoConstraints="NO" id="c5X-B1-RLi">
+                    <rect key="frame" x="140" y="518" width="165" height="113.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="113.5" id="BdI-6H-CZA"/>
+                        <constraint firstAttribute="width" constant="165" id="h2M-Ub-j8T"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Embrace_3D-left.png" translatesAutoresizingMaskIntoConstraints="NO" id="dMj-sW-rZp">
+                    <rect key="frame" x="139" y="518" width="165" height="113.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="165" id="FCK-uG-8cZ"/>
+                        <constraint firstAttribute="height" constant="113.5" id="t3I-HB-wU8"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Embrace_3D-right.png" translatesAutoresizingMaskIntoConstraints="NO" id="LzW-1Y-wbo">
+                    <rect key="frame" x="295" y="517" width="165" height="113.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="113.5" id="djZ-3T-wrF"/>
+                        <constraint firstAttribute="width" constant="165" id="rfv-lX-29R"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Embrace_3D-right.png" translatesAutoresizingMaskIntoConstraints="NO" id="J6X-PQ-53g">
+                    <rect key="frame" x="295" y="516.5" width="165" height="113.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="165" id="d9u-H6-ePo"/>
+                        <constraint firstAttribute="height" constant="113.5" id="wqP-XW-TuA"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="LzW-1Y-wbo" secondAttribute="centerX" constant="-78" id="7Ji-EP-Thb"/>
+                <constraint firstAttribute="trailing" secondItem="OaC-kT-a7k" secondAttribute="trailing" id="89O-WB-JlY"/>
+                <constraint firstAttribute="bottom" secondItem="J6X-PQ-53g" secondAttribute="bottom" constant="-30" id="8O0-go-Kgd"/>
+                <constraint firstAttribute="bottom" secondItem="dMj-sW-rZp" secondAttribute="bottom" constant="-32" id="9KB-7R-K6n"/>
+                <constraint firstAttribute="centerX" secondItem="c5X-B1-RLi" secondAttribute="centerX" constant="78" id="C4T-1c-8ax"/>
+                <constraint firstAttribute="centerX" secondItem="dMj-sW-rZp" secondAttribute="centerX" constant="78" id="CKl-5A-ccU"/>
+                <constraint firstItem="aOO-fm-j2G" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Euc-hc-1Vp"/>
+                <constraint firstItem="OaC-kT-a7k" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GH0-3S-euw"/>
+                <constraint firstAttribute="centerX" secondItem="J6X-PQ-53g" secondAttribute="centerX" constant="-78" id="W5b-Xo-LG0"/>
+                <constraint firstAttribute="centerX" secondItem="aOO-fm-j2G" secondAttribute="centerX" id="Wsr-xE-O2f"/>
+                <constraint firstAttribute="bottom" secondItem="OaC-kT-a7k" secondAttribute="bottom" id="cMU-t8-qVz"/>
+                <constraint firstItem="OaC-kT-a7k" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dQs-ZG-eNG"/>
+                <constraint firstAttribute="centerY" secondItem="aOO-fm-j2G" secondAttribute="centerY" id="k2q-Lm-XjZ"/>
+                <constraint firstAttribute="bottom" secondItem="LzW-1Y-wbo" secondAttribute="bottom" constant="-30.5" id="pnO-EW-6Xs"/>
+                <constraint firstAttribute="bottom" secondItem="c5X-B1-RLi" secondAttribute="bottom" constant="-32" id="s5a-aH-VtT"/>
+                <constraint firstAttribute="bottom" secondItem="aOO-fm-j2G" secondAttribute="bottom" constant="-40" id="xih-xQ-GEY"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Euc-hc-1Vp"/>
+                    <exclude reference="k2q-Lm-XjZ"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="backgroundImageView" destination="OaC-kT-a7k" id="XjL-R4-fv4"/>
+                <outlet property="leftBackEndSprite" destination="c5X-B1-RLi" id="iga-ze-BOy"/>
+                <outlet property="leftFrontEndSprite" destination="dMj-sW-rZp" id="ggr-3E-MzL"/>
+                <outlet property="rightBackEndSprite" destination="LzW-1Y-wbo" id="gsN-8x-IgR"/>
+                <outlet property="rightFrontEndSprite" destination="J6X-PQ-53g" id="ccj-f8-KQ5"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="Embrace_3D-left.png" width="330" height="227"/>
+        <image name="Embrace_3D-right.png" width="332" height="222"/>
+        <image name="Embrace_3D.png" width="640" height="262"/>
+        <image name="bg_Clubber.png" width="640" height="1136"/>
+    </resources>
+</document>
